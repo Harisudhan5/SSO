@@ -1,0 +1,43 @@
+.user-profile {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    text-align: center;
+    margin-top: 70px;
+
+  }
+  
+  .sidebar {
+    flex-basis: 45%; /* Adjust the width of the sidebars as needed */
+    border: 1px solid #ccc;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-top: 1cm;
+  }
+  
+  .user-info {
+    margin-bottom: 20px;
+  }
+  
+  .order-history {
+    margin-top: 20px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 40px;
+    margin-bottom: 40px ;
+  }
+  
+  th, td {
+    border: 1px solid #ccc;
+    padding: 15px 0px;
+    text-align: center;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
